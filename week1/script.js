@@ -12,7 +12,7 @@ console.log(
     lastName +
     ". I have been at SCC for " +
     yearsOfStudy +
-    " years and plan to " +
+    " year and plan to " +
     goal +
     " after completing my courses."
 );
