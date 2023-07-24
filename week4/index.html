@@ -1,14 +1,21 @@
 <!-- HTML form for input -->
 <form>
-    <!-- Input for First Name -->
+    <!-- Inputs for First Name -->
     <label for="firstName">First Name:</label>
     <input type="text" id="firstName" required><br>
   
-    <!-- Input for Last Name -->
+    <!-- Last Name -->
     <label for="lastName">Last Name:</label>
     <input type="text" id="lastName" required><br>
   
-    <!-- Input for Password -->
+    <!-- Password -->
     <label for="password">Password:</label>
     <input type="password" id="password" required><br>
+
+     <!-- Button triggering validation -->
+  <button type="button" onclick="validateForm()">Check</button>
+</form>
+
+<!-- This is the container for the Validation Message -->
+<div id="validationMessage"></div>
   
